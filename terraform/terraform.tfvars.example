@@ -1,0 +1,13 @@
+project_id          = "your-gcp-project-id"
+region              = "us-central1"
+zone                = "us-central1-a"
+ssh_user            = "ubuntu"
+ssh_public_key_path = "~/.ssh/id_rsa.pub"
+
+om_download_url = "https://downloads.mongodb.com/on-prem-mms/deb/mongodb-mms-8.0.21.500.20260316T1951Z.amd64.deb"
+om_version      = "8.0.21.500.20260316T1951Z"
+
+mongodb_version = "8.0"
+om_machine_type = "e2-standard-4"
+rs_machine_type = "e2-standard-2"
+disk_size_gb    = 50
